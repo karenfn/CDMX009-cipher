@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="StyleSheet" href="style.css" media="all">
+    <head>
+
+  </head>
+  <body>
+    <div align="center"><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png height="1500" width="1800"></div>
+     <p><div align="center"><font size= "30" color="white" face="Comic Sans MS,arial,verdana">Solo tienes que elegir tu película favorita,<br> generar tu código y listo obtendras tu promoción <br> "<strong>Cinema</strong> te invita al cine gratis"</font></p>
+      <br><br><br><br><br><br><br><br><br>
+       <div align="center"><img  src="https://www.sectorcine.com/wp-content/uploads/2020/01/sonic-la-pelicula-poster.jpg" width="600"> <img  src="https://i.pinimg.com/originals/03/f3/f6/03f3f6b744f61b7b94bea16516515480.png" width="600"> <img  src="https://lh3.googleusercontent.com/proxy/Bs0L2y3FWDQQxdEMAPm2Op_un1eTIQ6V_ALDvnaksNhbZscA9RWMwVcPZc2cONs9oTM8OSUgbdTf1XhvrmkD1YAUd4qpaCzh3B_AWnGT0L38KFJhPqsLaYYagu3A3O9v4jk6sbYJZoRGXQ4mIgn9YtmMypCwwWBJ2S-EwA" width="600"></div>>
+
+
+      <form id="formulario1" action="sonic.html" method="get" >
+        <p><input type="image" name="botondesonic" src="https://www.sectorcine.com/wp-content/uploads/2020/01/sonic-la-pelicula-poster.jpg" alt="Enviar el formulario" form="formulario1"></p>
+         <br><br><br><br><br><br>
+
+</html>
