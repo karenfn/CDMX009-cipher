@@ -1,0 +1,188 @@
+html{
+  background: #1F0029  url("https://i.ibb.co/9t2tYDK/fondo-palo.png");
+    background-repeat: repeat-y;
+}
+
+
+.rale-font{
+  font-size: 100px;
+  color: yellow;
+  text-align: right;
+  padding-right: 500px;
+}
+#firstname{
+  padding-left: 200px;
+  padding-right: 200px;
+  padding: 32px;
+  font-size: 60px;
+  color: blue;
+  border-radius: 25px;
+}
+.btn-estilo{
+  text-decoration: none;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-weight: 400px;
+  font-size: 90px;
+  color: black;
+  background-color: #E71840;
+  border-radius: 25px;
+  border: 5px solid #EBC51A;
+  margin-right: 350px;
+   }
+
+.btn.estilo:hover{
+  color: yellow;
+  background-color: purple;
+}
+
+
+.logo {
+  margin-top: 60px;
+  text-align: center;
+   height:200;
+   width:500;
+   padding-left: 1400px;
+
+}
+
+p {
+  margin-top: 2px;
+  font-family: "Comic Sans MS",cursive ;
+  font-size: 80px;
+  color: white;
+  text-align: center;
+}
+
+
+ .cuadrado{
+  padding:60px;
+  margin:10px;
+  background-color: #9B62AE;
+  font-family: "Comic Sans MS",cursive ;
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  color: purpure;
+ }
+
+ div#pelis{
+   text-align: center
+   width: 600px;
+   height:800px;
+   padding-left: 1200px;
+   padding-right: 1000px;
+   margin-top: 150px;
+ }
+
+#button-sonic{
+  height: 1000px;
+  width: 800px;
+  margin: 100px;
+}
+
+#button-jumanji{
+  height: 1000px;
+  width: 800px;
+  margin: 100px;
+}
+
+#button-jocker{
+  height: 1000px;
+  width: 800px;
+  margin: 100px;
+}
+
+
+.logo-mini {
+   text-align: center;
+   height:200px;
+   width:300px;
+   padding-left: 1000px;
+}
+
+ .logo-pie {
+    text-align: right;
+    height:800px;
+    width:1000px;
+    padding-left: 1000px;
+ }
+.rectangulo{
+    padding:50px;
+    background-color: #935CA7;
+    font-family: "Comic Sans MS",cursive ;
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+}
+
+.pelissinop{
+  margin: 30px
+  height: 300px;
+  width: 240px;
+  border-radius: 20px;
+  border: 10px solid white;
+  text-align: left;
+  float:left;
+  margin-right: 20px;
+  position: relative;
+    top: -90px;
+}
+h2{
+  text-align: center;
+  color: black;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+  font-family: "Comic Sans MS";
+  margin-right: 40px;
+
+}
+
+.cuadrado-1{
+ padding:10px;
+ padding-right: 50px;
+ background-color: #EBC51A;
+ font-family: "Comic Sans MS",cursive ;
+ font-size: 30px;
+ color: blue;
+ text-align: center;
+}
+
+.boton-ir-siguiente{
+text-decoration: none;
+margin-top: 1000px;
+margin-left: 200px;
+padding: 10px;
+align:center;
+font-family: "Comic Sans MS", cursive;
+font-size: 20px;
+color: white;
+background-color: #E71840;
+border-radius: 6px;
+border: 1px solid yellow;
+}
+  .boton-ir-siguientes:hover{
+color: yellow;
+background-color: white;
+ }
+
+h1{
+  margin-left: 720px;
+  margin-right: 200px;
+  align: center;
+  font-size: 70px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+
+.cuadrado-2{
+ padding:10px;
+ background-color: #9B62AE;
+ font-family: "Comic Sans MS",cursive ;
+ font-size: 50px;
+ color: white;
+ text-align: center;
+ color: purpure;
+}
