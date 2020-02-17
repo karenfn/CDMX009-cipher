@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div align="center"><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-mini"></div>
+    </header>
+    <main>
+      <h1><font face="Comic Sans MS,arial,verdana">Hola <span id="user"></h1>
+      <div class="cuadrado"><strong>Checa tu pelicula</strong> </div>
+       <div id="checar">
+            <p>Ingresa tu número <strong>CLAVE</strong></p>
+            <input class="numero-deco" type="number" min="0" max="10" id="numero">
+            <p>Ingresa tu código</p>
+            <textarea class="texto" id="textsDeco"></textarea><br>
+            <button class="boton-deco" type="button" name="boton" id="boton" >checar</button>
+        </div>
+      <p>Tu película es:</p>
+      <div class="result" id="descifrado"></div><br>
+     <a class="inicio" href='index.html'>Inicio</a>
+   </main>
+   <footer>
+      <div><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-pie"></div>
+   </footer>
+   <script src="index.js"></script>
+   <script>
+      ponerNombre();
+   </script>
+   <script src="cipher.js"></script>
+  </body>
+</html>

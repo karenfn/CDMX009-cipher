@@ -6,15 +6,41 @@
      <link rel="StyleSheet" href="style.css" media="all">
   </head>
   <body>
-   <div align="center"><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-mini"></div><br><br><br>
-   <div class="rectangulo"><img src="https://dam.smashmexico.com.mx/wp-content/uploads/2019/11/joker-pelicula-campania-premios-oscares-2020-poster-1.jpg" class="pelissinop"><strong>Sinopsis</strong><br>Arthur Fleck adora hacer reír a la gente, pero su carrera como comediante es un fracaso. El repudio social, la marginación y una serie de trágicos acontecimientos lo conducen por el sendero de la locura y, finalmente, cae en el mundo del crimen.</div>
-   <h2>Sucursales: forum / buenavista / lunaparc<br>Horario: 3:00 pm<h2>
-   <div>
-     <a class="boton-ir-siguiente" href='jumanji.html'>Anterior pelicula</a>
-     <a class="boton-ir-siguiente" href='sonic.html'>Siguiente pelicula</a>
+    <header>
+     <div align="center"><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-mini"></div>
+   </header>
+   <main>
+    <div class="rectangulo" ><img src="https://dam.smashmexico.com.mx/wp-content/uploads/2019/11/joker-pelicula-campania-premios-oscares-2020-poster-1.jpg" class="pelissinop"><strong>Sinopsis</strong><br>Arthur Fleck adora hacer reír a la gente, pero su forma no es la mas acertada para lograr convencer al publico, por lo que su carrera como comediante apesar de los muchos intentostermina por ser un verdadero fracaso. El repudio social, los maltratos, la marginación y una serie de trágicos    acontecimientos marcaran profundamente su vida conduciendolo orillandolo por el sendero de la extrema locura, hasta que inevitablemente cae en el mundo del crimen.</div>
+     <h2>Sucursales: metropoli / buenavista / lunaparc<br>Horario: 5:00 pm<h2><div class="ant-sig">
+      <a class="boton-ir-siguiente" href='jumanji.html'>Anterior pelicula</a>
+      <a class="boton-ir-siguiente" href='sonic.html'>Siguiente pelicula</a>
    </div>
-  <br><br>
-  <div class="cuadrado-1"><strong>Paso 2 selecciona tu peli</strong> </div>
-  <a class="boton-ir-siguiente" href='index.html'>Inicio</a>
-  </body>
+   <br><br>
+   <div class="cuadrado-1"><strong>Paso 2 selecciona tu peli</strong> </div>
+   <section id="generar-codigo">
+       <div class="selection">
+         <!-- IDEA: offset para elegir el desplazamiento (numero clave) -->
+         <p>Selecciona tu número CLAVE <br>(Elije un numero de 1 al 10)</p>
+         <p> <input type="number" min="0" max="10" id="numero"></p>
+         <!-- IDEA: cuadro donde se mete los datos -->
+           <p>Ingresa el nombre de tu película, <br>seguido de la sucursal  mas cercana. <br>ejemplo:</p>
+           <p class="example">jumanjiforum</p>
+           <textarea id="texto"></textarea><br>
+           <button class="boton-cifrar" type="button" name="boton" id="boton" >Generar código</button></div>
+           <p>Tu código es:</p>
+           <div id="resultado"></div>
+           <p>Copia y guarda este código <br> y no olvides recordar tu numero CLAVE <br> o descárgalo a tu dispositivo</p><br>
+     </section>
+     <div class="descargar">
+      <a class="boton-ir-siguiente" href='index.html'>Inicio</a>
+      <a class="boton-ir-siguiente" href='index.html'>Descargar</a>
+     </div>
+     <br>
+   </main>
+   <footer>
+    <div><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-pie"></div>
+   </footer>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+ </body>
 </html>

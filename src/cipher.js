@@ -1,68 +1,38 @@
-const cipher = {
-  // ...
-};
-
-export default cipher;
-let cifrado = document.getElementById("encodeButton");
-let descifrado = document.getElementById("decodeButton");
-
-cifrado.addEventListener("click",encode);
-descifrado.addEventListener("click",decode);
-
-function encode() {
-
-    let string = document.getElementById("in").value;
-    let offset = parseInt(document.getElementById("key").value);
-    let output = cipher.encode(offset,string);
-
-document.getElementById("out").innerHTML = output;
-
-}
-
-function decode() {
-
-    let string = document.getElementById("in").value;
-    let offset = parseInt(document.getElementById("key").value);
-    let output = cipher.decode (offset,string);
-
-document.getElementById("out").innerHTML = output;
-
-}
-
 window.cipher = {
-  encode: (offset, string) => {
-    let output = '';
-    offset = offset % 26;
-    for (let i = 0; i < string.length; i++) {
-      let letter = string.charCodeAt(i);
-      let newLetter;
-      if (letter >= 65 && letter <= 90){
-        newLetter = String.fromCharCode((letter - 65 + offset)%26 + 65);
-      }else if (97 <= letter && letter <= 122) {
-        newLetter = String.fromCharCode((letter - 97 + offset) %26 + 97);
-      }else {
-        newLetter = String.fromCharCode(letter);
-      }
-        output += newLetter
-   }
-   return output;
-},
+  // ...
+ encode: (num,text)=>{
+   let str = text.value;
+   let letters= str.toUpperCase();// IDEA: todas las letras seran mayusculas
+   let offset = num.value;
+   let newText= "";
+// IDEA: aplicamos la formula de ocdigo de cesar para convertir el texto en numeros
+   for(let i=0; i<letters.length; i++){
+     let letterAscii= letters.charCodeAt(i);// IDEA: usando charCodeAt convertimos el texto en unicode
+     let conversion=(letterAscii-65+parseInt(offset))%26+65;// IDEA: convertimos en numeros
 
-  decode: (offset, string) => {
-      let output = '';
-    offset = offset % 26;
-    for (let i = 0; i < string.length; i++) {
-      let letter = string.charCodeAt(i);
-      let newLetter;
-      if (letter >= 65 && letter <= 90) {
-        newLetter = String.fromCharCode((letter + 65 - offset - 26) %26 +65);
-      }else if (97 <= letter && letter <= 122) {
-        newLetter = String.fromCharCode((letter - 97 - offset + 26) %26 + 97);
-      }else {
-        newLetter = String.fromCharCode(letter);
-      }
-        output += newLetter
-      }
-      return output;
-   },
-  };
+let output=String.fromCharCode(conversion);// IDEA: convertimos los numero en letras de nuevo
+
+     newText += output;
+    }
+
+ return newText
+  },
+
+  decode:(num,textsDeco)=>{
+    let strDeco = textsDeco.value;
+    let letter= strDeco.toUpperCase();
+    let offset = num.value;
+    let newTexting = "";
+
+   for(let i=0; i<letter.length; i++){
+     let letterssAscii= letter.charCodeAt(i);
+
+     let conversionDeco=(letterssAscii+65-parseInt(offset))%26+65;
+     let out=String.fromCharCode(conversionDeco);
+
+     newTexting  += out;
+   }
+
+ return newTexting
+}
+};

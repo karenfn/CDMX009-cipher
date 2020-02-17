@@ -1,30 +1,43 @@
 <!DOCTYPE html>
-<html>
-  <head>
-   <meta charset="utf-8">
-    <title>CINEMA</title>
-     <link rel="StyleSheet" href="style.css" media="all">
-    <script src="index.js"></script>
-  </head>
-  <body>
-    <div><form align="right"><p class="rale-font"><strong>Checa tu código</strong></p>
-       <input type="text" id="firstname" name="firstname" placeholder="Escribe tu nombre">
-       <button onclick="botonPlay();" type="button" name="jugar" class="btn-estilo">Ir</button>
-     </form>
-    </div>
-    <div><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo"></div>
-    <p>Solo tienes que elegir tu película favorita,<br> generar tu código y listo obtendras tu promoción <br> "<strong>Cinema</strong> te invita al cine gratis"</p>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		    <link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+	  	<section id="primera-inicio"><!-- IDEA: pedimos el nombre para que en la siguiente pagina devuelva un saludo personalizado -->
+	    <div><form align="right"><p class="rale-font"><strong>Checa tu código</strong></p>
+		    <input type="text" id="first-name" name="first-name" placeholder="Escribe tu nombre">
+		    <button onclick="botonPlay();" type="button" name="jugar" class="btn-estilo">Ir</button>
+	     </form>
+    	</div>
+  	<div><img  src=https://i.ibb.co/LdmKVZB/logo-inicio.png class="logo-inicio"></div>
+  	<p>Solo tienes que elegir tu película favorita,<br> generar tu código y listo obtendras tu promoción <br> "<strong>Cinema</strong> te invita al cine gratis"</p>
     <br>
-    <div class="cuadrado"><strong>Paso 1 elige una peli</strong> </div>
-    <br><br>
-    <div id="pelis">
-       <a href="jumanji.html"><img src="https://i.pinimg.com/originals/03/f3/f6/03f3f6b744f61b7b94bea16516515480.png" id="button-jumanji"></a>
-       <a href="jocker.html"><img src="https://dam.smashmexico.com.mx/wp-content/uploads/2019/11/joker-pelicula-campania-premios-oscares-2020-poster-1.jpg" id="button-jocker" ></a>
-       <a href="sonic.html"><img src="https://www.sectorcine.com/wp-content/uploads/2020/01/sonic-la-pelicula-poster.jpg" id="button-sonic"></a>
-    <div>
-    <br><br><br><br><br><br>
-    <div><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-pie"></div>
-    <script src="index.js"></script>
+  </section>
+	</header>
+	<main>
+  	<section id="segunda-seccion" class="hide">
+			<div class="cuadrado">
+       <strong>Paso 1 elige una peli</strong>
+      </div>
+      <br><br>
+      <div id="pelis">
+        <a href="jumanji.html"><img src="https://i.pinimg.com/originals/03/f3/f6/03f3f6b744f61b7b94bea16516515480.png" id="button-jumanji"></a>
+        <a href="jocker.html"><img src="https://dam.smashmexico.com.mx/wp-content/uploads/2019/11/joker-pelicula-campania-premios-oscares-2020-poster-1.jpg" id="button-jocker" ></a>
+        <a href="sonic.html"><img src="https://www.sectorcine.com/wp-content/uploads/2020/01/sonic-la-pelicula-poster.jpg" id="button-sonic"></a>
+      </div>
+			<br>
+      <div><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-pie"></div>
+    </section>
+   	<script src="cipher.js"></script>
+	  <script src="index.js"></script>
+	 </main>
+   <footer>
+			<h5>CINEMA</h5>
+   </footer>
 
-  </body>
+	</body>
 </html>

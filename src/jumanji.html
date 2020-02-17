@@ -2,19 +2,45 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>jumaji</title>
      <link rel="StyleSheet" href="style.css" media="all">
   </head>
   <body>
-   <div align="center"><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-mini"></div><br><br><br>
-   <div class="rectangulo"><img src="https://i.pinimg.com/originals/03/f3/f6/03f3f6b744f61b7b94bea16516515480.png" class="pelissinop"><strong>Sinopsis</strong><br>En esta ocasión, los 'jugadores' vuelven al juego, pero sus personajes se han intercambiado entre sí, lo que ofrece un curioso plantel: los mismos héroes con distinta apariencia. Pero, ¿dónde está el resto de la gente? Los participantes sólo tienen una opción: jugar una vez más a esta peligrosa partida para descubrir qué es realmente lo que está sucediendo.</div>
-   <h2>Sucursales: forum / buenavista / lunaparc<br>Horario: 5:00 pm<h2>
-    <div>
-      <a class="boton-ir-siguiente" href='sonic.html'>Anterior pelicula</a>
-      <a class="boton-ir-siguiente" href='jocker.html'>Siguiente pelicula</a>
-    </div>
-    <br><br>
-    <div class="cuadrado-1"><strong>Paso 2 selecciona tu peli</strong> </div>
-   <a class="boton-ir-siguiente" href='index.html'>Inicio</a>
+    <header>
+      <div align="center"><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-mini"></div>
+    </header>
+    <main>
+      <div class="rectangulo"><img src="https://i.pinimg.com/originals/03/f3/f6/03f3f6b744f61b7b94bea16516515480.png" class="pelissinop"><strong>Sinopsis</strong><br>En esta ocasión, todos los 'jugadores' vuelven al juego jumanji, el juego en el pasado por accidente , nuevamente sus personajes se han intercambiado entre sí y esta vez entran en el juego nuevos personajes, lo que ofrece un curioso plantel: los mismos héroes con distinta apariencia. Pero, ¿dónde está el resto de la gente? Los participantes sólo tienen una opción: jugar una vez más a esta peligrosa partida para descubrir qué es realmente lo que está sucediendo.</div>
+       <h2>Sucursales: forum / antara / lunaparc<br>Horario: 8:00 pm<h2>
+     <div class="ant-sig">
+       <a class="boton-ir-siguiente" href='sonic.html'>Anterior pelicula</a>
+       <a class="boton-ir-siguiente" href='jocker.html'>Siguiente pelicula</a>
+     </div>
+     <br><br>
+     <div class="cuadrado-1"><strong>Paso 2 selecciona tu peli</strong> </div>
+     <section id="generar-codigo">
+        <div class="selection">
+          <!-- IDEA: offset para elegir el desplazamiento (numero clave) -->
+          <p>Selecciona tu número CLAVE <br>(Elije un numero de 1 al 10)</p>
+          <p> <input type="number" min="0" max="10" id="numero"></p>
+          <!-- IDEA: cuadro donde se mete los datos -->
+            <p>Ingresa el nombre de tu película, <br>seguido de la sucursal  mas cercana. <br>ejemplo:</p>
+            <p class="example">jumanjiforum</p>
+            <textarea id="texto"></textarea><br>
+            <button class="boton-cifrar" type="button" name="boton" id="boton" >Generar código</button></div>
+            <p>Tu código es:</p>
+            <div id="resultado"></div>
+            <p>Copia y guarda este código <br> y no olvides recordar tu numero CLAVE <br> o descárgalo a tu dispositivo</p><br>
+      </section>
+      <div class="descargar">
+       <a class="boton-ir-siguiente" href='index.html'>Inicio</a>
+       <a class="boton-ir-siguiente" href='index.html'>Descargar</a>
+      </div>
+      <br>
+    <footer>
+      <div><img  src=https://i.ibb.co/RHR8CRX/logo-con-invita.png class="logo-pie"></div>
+    </footer>
+   <script src="cipher.js"></script>
+   <script src="index.js"></script>
   </body>
 </html>
