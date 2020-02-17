@@ -25,27 +25,28 @@ En este proyecto  la marca invita  a sus usuarios al cine, dándoles a elegir en
 Estructura visual final del producto "CINEMA, te invita al cine gratis"
 
 Inicio de la página/ elegir película
+
 ![inicio](https://i.ibb.co/vLgDHFG/inicio-b.jpg)
 
 Visualización de la sinopsis de la película / Generar código
+
 ![estructura-peliculas](https://i.ibb.co/XWkmMwn/selleccion-peli.jpg)
 
 Checar código
+
 ![checa-codigo](https://i.ibb.co/q0fDw4f/checar.jpg)
 
 ## 4. Investigacion UX
 
-### Target
+### objetivo
 
 Se busca impactar a un segmento de hombres y mujeres mayores de edad, entre 18 y 50 años, con gusto por el cine, clientes recurrentes de nuestros servicios.
-
-### Objetivo
 
 El objetivo principal es impactar al usuario de forma que se refuerce la preferencia del cliente por nuestro cine, consiguiendo así la lealtad de nuestros clientes
 
 ### Resoluciön de necesidad del cliente
 
-Está aplicación ayudará a resolver la necesidad del cliente de pertenecía, atraves del lanzamiento de esta promoción el consumidor se sentirá beneficiado por nuestra marca.
+Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del lanzamiento de esta promoción el consumidor se sentirá beneficiado por nuestra marca.
 
 
 ### Prototipo de baja fidelidad
@@ -68,3 +69,6 @@ Está aplicación ayudará a resolver la necesidad del cliente de pertenecía, a
 ![estructura-peliculas](https://i.ibb.co/fMMKdpq/peliculas.jpg)
 
 ![checa-codigo](https://i.ibb.co/HYxKQ3b/codigp.jpg)
+
+
+                                                                     GRACIAS POR SU ATENCIÓN!
