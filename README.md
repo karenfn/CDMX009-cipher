@@ -71,4 +71,4 @@ Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del
 ![checa-codigo](https://i.ibb.co/HYxKQ3b/codigp.jpg)
 
 
-                                                                     GRACIAS POR SU ATENCIÓN!
+                                                                     .GRACIAS POR SU ATENCIÓN!

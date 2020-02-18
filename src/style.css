@@ -6,39 +6,36 @@ html{
 
 .rale-font{
   margin-top: 30px;
-  font-size: 25px;
+  font-size: 20px;
   color: yellow;
   text-align: right;
-  padding-right: 80px;
+  padding-right: 100px;
 }
 #first-name{
-  padding-left: 5px;
-  padding: 5px;
-  font-size: 20px;
-  color: blue;
+  padding: 3px;
+  font-size: 17px;
+  text-align: center;
   border-radius: 10px
 }
 
-.btn-estilo{
+.boton-estilo{
   text-decoration: none;
   padding-right: 15px;
   padding-left: 15px;
-  font-size: 25px;
-  color: black;
+  font-size: 18px;
+  color: white;
   background-color: #E71840;
   border-radius: 10px;
-  border: 5px solid #EBC51A;
+  border: 3px solid #EBC51A;
   margin-right: 30px;
 
    }
 
 .logo-inicio {
+  margin-left: 500px;
   align: center;
-  padding-left: 220px;
-  height: 710px;
-  width: 900px;
-
-
+  width: 320px;
+  height: 310px;
 }
 
 p {
@@ -53,10 +50,16 @@ p {
   padding: 10px;
   padding left:40px;
   background-color: #9B62AE;
+  text-decoration:  inherit;
   font-family: "Comic Sans MS",cursive ;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   text-align: center;
+ }
+
+ a {
+   text-decoration: none;
+   color: white;
  }
 
  div#pelis{
@@ -87,17 +90,17 @@ p {
 
 .logo-mini {
    text-align: right;
-   height:130px;
+   height:150px;
    width:200px;
    padding-left: 950px;
 }
 
  .logo-pie {
-    text-align: right;
+   margin-left: 270px;
+   align: center;
     height:140px;
-    width:200px;
-    padding-left: 560px;
  }
+
 .rectangulo{
     padding:30px;
     background-color: #935CA7;
@@ -133,9 +136,9 @@ h2{
  padding-right:50px;
  width: 100%;
  background-color: #FBC618;
- opacity: 0.7;
+ opacity: 0.9;
  font-family: "Comic Sans MS",cursive ;
- font-size: 40px;
+ font-size: 30px;
  text-align: center;
  padding-left: 150px;
 }
