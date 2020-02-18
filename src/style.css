@@ -62,12 +62,12 @@ p {
    color: white;
  }
 
- div#pelis{
-   margin-top: 30px;
-   text-align: center
+ div #pelis{
+   margin-top: 10px;
+   align: center
    width: 400px;
    height:600px;
-   padding-left: 280px;
+   padding-left: 310px;
  }
 
 #button-sonic{
@@ -96,9 +96,9 @@ p {
 }
 
  .logo-pie {
-   margin-left: 270px;
-   align: center;
-    height:140px;
+   margin-left: 160px;
+   height:140px;
+   align-content: center;
  }
 
 .rectangulo{
@@ -220,10 +220,11 @@ h1{
   border: 1px solid red;
 }
 
-#resultado{
+#result{
   color: yellow;
   font-size: 30px;
 }
+
 #selection{
   padding: 5px;
   font-size: 15px;

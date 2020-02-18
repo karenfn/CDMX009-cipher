@@ -78,7 +78,7 @@ Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del
 
 ### HTML y CSS
 
-- [&#128517;] Uso correcto de HTML semántico.
+- [ &#128517;] Uso correcto de HTML semántico.
 - [ &#128512; ] Uso de selectores de CSS.
 - [ &#128512;] Construir tu aplicación respetando el diseño realizado (maquetación).
 
@@ -97,7 +97,7 @@ Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del
 - [ &#128077;] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ ] Testeo de tus funciones.
+- [ &#128561; ] Testeo de tus funciones.
 
 ### Git y GitHub
 - [ &#128076;&#127999;] Comandos de git (add | commit | pull | status | push).

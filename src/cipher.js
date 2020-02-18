@@ -26,7 +26,7 @@ let output=String.fromCharCode(conversion);// IDEA: convertimos los numero en le
 
    for(let i=0; i<letter.length; i++){
      let letterssAscii= letter.charCodeAt(i);
-
+// IDEA: para hacer que decifre el codigo se invierten los signos
      let conversionDeco=(letterssAscii+65-parseInt(offset))%26+65;
      let out=String.fromCharCode(conversionDeco);
 
