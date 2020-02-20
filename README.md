@@ -5,7 +5,9 @@
 * [1. Presentacion](#1-presentacion)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Imagen final del proyecto](#3-imagen-final)
-* [4. Investigacion UX](#4-investigacio-ux)
+* [4. Investigacion UX](#4-investigacion-ux)
+* [5. Readme](#5-readme)
+
 
 ***
 
@@ -70,38 +72,41 @@ Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del
 
 ![checa-codigo](https://i.ibb.co/HYxKQ3b/codigp.jpg)
 
+
+## 5. Readme
+
 ### UX
 
-- [x &#129321;] Diseñar la aplicación pensando y entendiendo al usuario.
-- [x &#129321;] Crear prototipos para obtener feedback e iterar.
-- [x &#129321; ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] [ &#129321;]Diseñar la aplicación pensando y entendiendo al usuario.
+- [x] [ &#129321;] Crear prototipos para obtener feedback e iterar.
+- [x] [ &#129321; ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [ &#128517;] Uso correcto de HTML semántico.
-- [x &#128512; ] Uso de selectores de CSS.
-- [x &#128512;] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [ ]  [ &#128517;] Uso correcto de HTML semántico.
+- [x] [ &#128512; ] Uso de selectores de CSS.
+- [x] [ &#128512;] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
-- [x &#128077;] Uso de selectores del DOM.
-- [x &#128077;] Manejo de eventos del DOM.
-- [x &#128077;] Manipulación dinámica del DOM.
+- [x] [ &#128077;] Uso de selectores del DOM.
+- [x] [ &#128077;] Manejo de eventos del DOM.
+- [x] [ &#128077;] Manipulación dinámica del DOM.
 
 ### Javascript
 
-- [x &#128077;] Manipulación de strings.
-- [ &#128546;] Uso de condicionales (if-else | switch).
-- [x &#128077;] Uso de bucles (for | do-while).    
-- [x &#128077;] Uso de funciones (parámetros | argumentos | valor de retorno).
-- [x &#128077;] Declaración correcta de variables (const & let).
+-[x]  [ &#128077;] Manipulación de strings.
+-[ ]  [ &#128546;] Uso de condicionales (if-else | switch).
+-[x]  [ &#128077;] Uso de bucles (for | do-while).    
+-[x]  [ &#128077;] Uso de funciones (parámetros | argumentos | valor de retorno).
+-[x]  [ &#128077;] Declaración correcta de variables (const & let).
 
 ### Testing
 - [ &#128561; ] Testeo de tus funciones.
 
 ### Git y GitHub
-- [x &#128076;&#127999;] Comandos de git (add | commit | pull | status | push).
-- [x &#128076;&#127999; ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+-[x]  [ &#128076;&#127999;] Comandos de git (add | commit | pull | status | push).
+-[x]  [ &#128076;&#127999; ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
 - [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
