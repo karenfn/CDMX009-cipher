@@ -83,7 +83,7 @@ Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del
 
 ### HTML y CSS
 
-- [ &#128517;] Uso correcto de HTML semántico.
+- [ ] [ &#128517;] Uso correcto de HTML semántico.
 - [x] [ &#128512;] Uso de selectores de CSS.
 - [x] [ &#128512;] Construir tu aplicación respetando el diseño realizado (maquetación).
 
@@ -95,18 +95,18 @@ Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del
 
 ### Javascript
 
--[x] [ &#128077;] Manipulación de strings.
--[x] [ &#128546;] Uso de condicionales (if-else | switch).
--[x] [ &#128077;] Uso de bucles (for | do-while).    
--[x] [ &#128077;] Uso de funciones (parámetros | argumentos | valor de retorno).
--[x] [ &#128077;] Declaración correcta de variables (const & let).
+- [x] [ &#128077;] Manipulación de strings.
+- [ ] [ &#128546;] Uso de condicionales (if-else | switch).
+- [x] [ &#128077;] Uso de bucles (for | do-while).    
+- [x] [ &#128077;] Uso de funciones (parámetros | argumentos | valor de retorno).
+- [x] [ &#128077;] Declaración correcta de variables (const & let).
 
 ### Testing
--[ &#128561; ] Testeo de tus funciones.
+- [ ] [ &#128561; ] Testeo de tus funciones.
 
 ### Git y GitHub
--[x] [ &#128076;&#127999;] Comandos de git (add | commit | pull | status | push).
--[x] [ &#128076;&#127999; ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
+- [x] [ &#128076;&#127999;] Comandos de git (add | commit | pull | status | push).
+- [x] [ &#128076;&#127999; ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
 - [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
