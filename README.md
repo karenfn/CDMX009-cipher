@@ -79,12 +79,12 @@ Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del
 
 - [x] [ &#129321;]Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] [ &#129321;] Crear prototipos para obtener feedback e iterar.
-- [x] [ &#129321; ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] [ &#129321;] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
-- [ ]  [ &#128517;] Uso correcto de HTML semántico.
-- [x] [ &#128512; ] Uso de selectores de CSS.
+- [ &#128517;] Uso correcto de HTML semántico.
+- [x] [ &#128512;] Uso de selectores de CSS.
 - [x] [ &#128512;] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
@@ -96,13 +96,13 @@ Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del
 ### Javascript
 
 -[x]  [ &#128077;] Manipulación de strings.
--[ ]  [ &#128546;] Uso de condicionales (if-else | switch).
+-[ &#128546;] Uso de condicionales (if-else | switch).
 -[x]  [ &#128077;] Uso de bucles (for | do-while).    
 -[x]  [ &#128077;] Uso de funciones (parámetros | argumentos | valor de retorno).
 -[x]  [ &#128077;] Declaración correcta de variables (const & let).
 
 ### Testing
-- [ &#128561; ] Testeo de tus funciones.
+-[ &#128561; ] Testeo de tus funciones.
 
 ### Git y GitHub
 -[x]  [ &#128076;&#127999;] Comandos de git (add | commit | pull | status | push).
@@ -112,8 +112,6 @@ Está aplicación resolvera la necesidad del cliente de pertenecía, atraves del
 - [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
-
-#
 
 
                                                                      .GRACIAS POR SU ATENCIÓN!
